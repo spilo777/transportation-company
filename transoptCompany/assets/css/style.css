@@ -87,7 +87,7 @@ ol {
 .intro {
     height: 600px;
 
-    background: #000 url(/assets/images/intro-bg.jpg) no-repeat center / cover;
+    background: #000 url(/transoptCompany/assets/images/intro-bg.jpg) no-repeat center / cover;
 }
 
 .intro__inner {
@@ -202,15 +202,15 @@ ol {
 }
 
 .input--user {
-    background: url(/assets/images/person.svg) left 15px top 5px no-repeat;
+    background: url(/transoptCompany/assets/images/person.svg) left 15px top 5px no-repeat;
 }
 
 .input--phone {
-    background: url(/assets/images/call.svg) left 15px top 5px no-repeat;
+    background: url(/transoptCompany/assets/images/call.svg) left 15px top 5px no-repeat;
 }
 
 .input--mail {
-    background: url(/assets/images/mail.svg) left 15px top 6px no-repeat;
+    background: url(/transoptCompany/assets/images/mail.svg) left 15px top 6px no-repeat;
 }
 
 /* btn */
