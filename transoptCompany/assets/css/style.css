@@ -222,8 +222,9 @@ ol {
 
 .btn {
     display: inline-block;
-    vertical-align: top;
-    padding: 11px 20px;
+    vertical-align: middle;
+    padding: 15px 45px;
+    text-decoration: none;
 
 
     font-family: 'PT Sans';
@@ -260,7 +261,7 @@ ol {
 }
 
 .section--map {
-    background: url(/transportation-company/transoptCompany/assets/images/Clients/map.svg) no-repeat left 30px center;
+    background: url(/transportation-company/transoptCompany/assets/images/Clients/map.svg) no-repeat left 30px top 130px;
 
 }
 
@@ -373,6 +374,7 @@ ol {
 
 .clients {
     display: flex;
+    margin-bottom: 60px;
 }
 
 .clients__logos {
@@ -381,4 +383,29 @@ ol {
 
 .clients__reviews {
     width: 40px;
+}
+
+.clients__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.clients__list li {
+
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.clients-love {
+    font-family: 'PT Sans';
+    font-size: 18px;
+    min-height: 47px;
+    padding-top: 5px;
+    background: url(/transportation-company/transoptCompany/assets/images/Clients/ios-heart-empty\ 1.svg) no-repeat left 20px top 0;
+    color: #464646;
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: middle;
+
 }
